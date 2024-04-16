@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"mjs/models"
+	"gd/models"
 	"strconv"
 
 	"github.com/gin-gonic/gin"

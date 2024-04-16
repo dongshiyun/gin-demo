@@ -1,4 +1,4 @@
-module mjs
+module gd
 
 go 1.14
 

@@ -1,8 +1,8 @@
 package router
 
 import (
-	"mjs/config"
-	"mjs/controllers"
+	"gd/config"
+	"gd/controllers"
 	"net/http"
 
 	"github.com/gin-gonic/gin"

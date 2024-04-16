@@ -2,13 +2,13 @@ package consul
 
 import (
 	"fmt"
-	"mjs/config"
+	"gd/config"
 
 	"github.com/hashicorp/consul/api"
 )
 
-//https://developer.hashicorp.com/consul/docs
-//https://developer.hashicorp.com/consul/api-docs/agent/service#register-service
+// https://developer.hashicorp.com/consul/docs
+// https://developer.hashicorp.com/consul/api-docs/agent/service#register-service
 func Register(address string, port int, name string, tags []string, id string) error {
 	cfg := api.DefaultConfig()
 	cfg.Address = config.Address
@@ -42,7 +42,7 @@ func Register(address string, port int, name string, tags []string, id string) e
 	return nil
 }
 
-//根据ID获取服务
+// 根据ID获取服务
 func GetServiceByID(id string) {
 	cfg := api.DefaultConfig()
 	cfg.Address = config.Address

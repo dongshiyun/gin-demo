@@ -1,7 +1,7 @@
 package models
 
 import (
-	"mjs/initDb"
+	"gd/initDb"
 )
 
 type Notice struct {
